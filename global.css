@@ -37,4 +37,10 @@ body {
   font-family: "Roboto", sans-serif;
   min-height: 100svh;
   min-height: 100vh;
+
+  display: grid;
+  place-items: center;
+  background-color: var(--clr-blue-800);
+  padding-inline: 0;
+  margin-inline: 0;
 }
