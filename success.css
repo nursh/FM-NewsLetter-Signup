@@ -1,19 +1,25 @@
 @import url("./global.css");
 
-
 main {
-  max-width: 32rem;
+  min-height: 100svh;
+  min-height: 100vh;
 }
 
 .content {
+  min-height: 100vh;
   background-color: var(--clr-white);
-  padding: var(--spacing-800);
-  border-radius: 2.25rem;
+  padding: 9rem var(--spacing-300) 4rem;
+  
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+  /* border-radius: 2.25rem; */
 }
 
-.content > *+* {
-  margin-block-start: var(--spacing-400);
+.content img {
+  align-self: flex-start;
 }
+
 
 .content a {
   text-decoration: none;
@@ -23,6 +29,7 @@ main {
   border-radius: 0.5rem;
   text-align: center;
   padding-block: 1rem;
+  margin-top: auto;
 }
 
 .content h1 {
@@ -37,6 +44,3 @@ main {
   color: var(--clr-blue-800);
 }
 
-footer {
-  color: var(--clr-white);
-}
