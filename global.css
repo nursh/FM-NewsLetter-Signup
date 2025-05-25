@@ -71,7 +71,7 @@ li {
 h1 {
   max-inline-size: 15ch;
   color: var(--clr-blue-800);
-  font-weight: 700;
+  font-weight: var(--text-bold);
   font-size: clamp(var(--text-1-mobile), 0.7609rem + 8.6957vw, var(--text-1));
 }
 

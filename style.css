@@ -29,6 +29,19 @@ article {
 .form-control {
   display: flex;
   flex-direction: column;
+  gap: var(--spacing-100);
+}
+
+.form-control label {
+  font-size: var(--text-3);
+}
+
+.form-control input {
+  padding: var(--spacing-200) var(--spacing-300);
+  font-size: var(--text-2);
+  color: var(--clr-grey);
+  border-radius: 0.5rem;
+  border: 1px solid var(--clr-grey);
 }
 
 button {
@@ -41,4 +54,18 @@ button {
   border-radius: 0.5rem;
   padding-block: var(--spacing-200);
   font-size: var(--text-2);
+}
+
+
+@media (width > 38rem) {
+
+  article {
+    min-height: auto;
+    padding: var(--spacing-500);
+    border-radius: 2.25rem;
+  }
+
+  img {
+    border-radius: 1rem;
+  }
 }
