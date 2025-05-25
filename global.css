@@ -53,11 +53,6 @@ main {
   min-height: 100vh;
 }
 
-img {
-  min-width: 100%;
-  display: block;
-}
-
 ul {
   list-style-image: url('./assets/images/icon-list.svg');
   padding-inline-start: 1.875rem;
@@ -73,15 +68,4 @@ h1 {
   color: var(--clr-blue-800);
   font-weight: var(--text-bold);
   font-size: clamp(var(--text-1-mobile), 0.7609rem + 8.6957vw, var(--text-1));
-}
-
-@media (width > 32rem) {
-  body {
-    display: grid;
-    place-items: center;
-  }
-
-  main {
-    min-height: auto;
-  }
 }
