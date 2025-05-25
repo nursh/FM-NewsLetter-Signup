@@ -18,8 +18,27 @@ article {
   padding-inline: var(--spacing-200);
 }
 
+.content p {
+  line-height: 1.5;
+}
+
 .content form {
   --default-spg: var(--spacing-500);
 }
 
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
 
+button {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: var(--clr-blue-800);
+  color: var(--clr-white);
+  border-radius: 0.5rem;
+  padding-block: var(--spacing-200);
+  font-size: var(--text-2);
+}

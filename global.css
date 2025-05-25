@@ -61,6 +61,11 @@ img {
 ul {
   list-style-image: url('./assets/images/icon-list.svg');
   padding-inline-start: 1.875rem;
+  padding-inline-end: 1em;
+}
+
+li {
+  line-height: 1.5;
 }
 
 h1 {
