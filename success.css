@@ -29,12 +29,12 @@
   box-shadow: 0px 1rem 2rem rgba(255, 97, 85, 0.5);
 }
 
-.content h1 {
+/* .content h1 {
   max-inline-size: 15ch;
   color: var(--clr-blue-800);
   font-weight: 700;
   font-size: clamp(var(--text-1-mobile), 0.7609rem + 8.6957vw, var(--text-1));
-}
+} */
 
 .content p {
   line-height: 1.5;

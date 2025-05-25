@@ -1,0 +1,25 @@
+@import url("./global.css");
+
+
+article {
+  background-color: var(--clr-white);
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-500);
+}
+
+.stack > *+* {
+  margin-block-start: var(--default-spg, var(--spacing-300));
+}
+
+.content {
+  padding-inline: var(--spacing-200);
+}
+
+.content form {
+  --default-spg: var(--spacing-500);
+}
+
+

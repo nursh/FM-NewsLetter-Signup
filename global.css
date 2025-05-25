@@ -1,5 +1,4 @@
 :root {
-
   /* Spacing */
   --spacing-100: 0.5rem;
   --spacing-200: 1rem;
@@ -52,6 +51,23 @@ p {
 main {
   min-height: 100svh;
   min-height: 100vh;
+}
+
+img {
+  min-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style-image: url('./assets/images/icon-list.svg');
+  padding-inline-start: 1.875rem;
+}
+
+h1 {
+  max-inline-size: 15ch;
+  color: var(--clr-blue-800);
+  font-weight: 700;
+  font-size: clamp(var(--text-1-mobile), 0.7609rem + 8.6957vw, var(--text-1));
 }
 
 @media (width > 32rem) {
