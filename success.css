@@ -32,6 +32,11 @@ main {
   margin-top: auto;
 }
 
+.content a:hover {
+  background: var(--clr-gradient);
+  box-shadow: 0px 1rem 2rem rgba(255, 97, 85, 0.5);
+}
+
 .content h1 {
   max-inline-size: 15ch;
   color: var(--clr-blue-800);
