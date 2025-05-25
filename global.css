@@ -48,3 +48,19 @@ p {
   margin: 0;
   padding: 0;
 }
+
+main {
+  min-height: 100svh;
+  min-height: 100vh;
+}
+
+@media (width > 32rem) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+
+  main {
+    min-height: auto;
+  }
+}
