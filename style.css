@@ -44,9 +44,19 @@ article img {
 .form-control input {
   padding: var(--spacing-200) var(--spacing-300);
   font-size: var(--text-2);
-  color: var(--clr-grey);
+  color: var(--clr-blue-800);
   border-radius: 0.5rem;
   border: 1px solid var(--clr-grey);
+}
+
+.form-control input:focus {
+  outline: 1px solid var(--clr-blue-800);
+}
+
+.form-control input:invalid {
+  outline: 1px solid var(--clr-red);
+  background-color: var(--clr-red-100);
+  color: var(--clr-red);
 }
 
 button {
@@ -87,5 +97,29 @@ button:hover {
 
   article img {
     border-radius: 1rem;
+  }
+
+  .content {
+    padding: 0;
+  }
+}
+
+@media (width > 56.5rem) {
+
+  article {
+    max-inline-size: 56.5rem;
+    margin-inline: auto;
+    flex-direction: row-reverse;
+    gap: var(--spacing-800);
+    padding: var(--spacing-400);
+    --default-spg: var(--spacing-400);
+  }
+
+  .content {
+    align-self: center;
+  }
+
+  ul {
+    padding-inline-end: var(--spacing-200);
   }
 }
