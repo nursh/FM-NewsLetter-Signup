@@ -57,14 +57,18 @@
 
           <form class="stack">
             <div class="form-control">
-              <label for="email">Email address</label>
-              <input type="email" placeholder="email@company.com" />
+              <div class="labels">
+                <label for="email">Email address</label>
+                <p class="error-label">Valid email required</p>
+              </div>
+              <input type="email" name="email" placeholder="email@company.com" />
             </div>
 
-            <button>Subscribe to monthly newsletter</button>
+            <button type="submit">Subscribe to monthly newsletter</button>
           </form>
         </div>
       </article>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>

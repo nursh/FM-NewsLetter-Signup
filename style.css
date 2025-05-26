@@ -37,8 +37,20 @@ article img {
   gap: var(--spacing-100);
 }
 
-.form-control label {
+.labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.form-control label,
+.error-label {
   font-size: var(--text-3);
+}
+
+.error-label {
+  visibility: hidden;
+  color: var(--clr-red);
 }
 
 .form-control input {
