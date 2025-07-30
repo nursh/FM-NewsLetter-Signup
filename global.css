@@ -55,13 +55,14 @@ main {
 }
 
 ul {
+  padding-inline: 1.875rem 1em;
   list-style-image: url('./assets/images/icon-list.svg');
-  padding-inline-start: 1.875rem;
-  padding-inline-end: 1em;
 }
 
 li {
-  line-height: 1.5;
+  --default-spg: var(--spacing-100);
+  padding-left: var(--spacing-200);
+  vertical-align: middle;
 }
 
 h1 {

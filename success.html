@@ -26,11 +26,15 @@
         <h1>Thanks for subscribing!</h1>
         <p>
           A confirmation email has been sent to
-          <b>ash@loremcompany.com.</b> Please open it and click the button
+          <b id="email-text"></b> Please open it and click the button
           inside to confirm your subscription.
         </p>
         <a href="/index.html"> Dismiss message</a>
       </div>
     </main>
+    <script>
+      const email = window.localStorage.getItem('email');
+      document.getElementById('email-text').textContent = email
+    </script>
   </body>
 </html>
